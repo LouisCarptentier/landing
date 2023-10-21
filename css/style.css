@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700|Lobster");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  font-weight: normal;
+  font-size: 70px;
+  margin-bottom: 0.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.card {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.card h3 {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
